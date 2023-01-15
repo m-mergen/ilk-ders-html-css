@@ -1,0 +1,144 @@
+/*   burada bodyi ozellestiriyorum */
+body {
+    /*
+    background-color: yellowgreen;
+    background-image: url(cocuklar1.jpeg);
+    background-repeat: no-repeat;
+    background-position: top right;
+   */
+
+   background-size: cover;
+   background: yellowgreen url('cocuklar1.jpg') no-repeat top right fixed;
+
+}
+form {
+    background-color: rgb(200, 100, 50);
+}
+.ozel-sinif{
+    background-color: wheat;
+}
+#ozelId {
+    background-color: turquoise;
+}
+[type=text]{
+    color: red;
+}
+
+.saga-yasla{
+    background-color: wheat;
+    text-align: right;
+    font-size: 0.2in;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.ortala{
+    text-align: center;
+    text-transform: lowercase;
+    text-indent: 50px;
+    letter-spacing: 2pt;
+    word-spacing: 150%;
+    line-height: 10mm;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.4cm;
+}
+
+.ozel-a{
+    background-color: aqua
+}
+
+.ozel-a:visited{
+    background-color: yellow;
+}
+
+.ozel-a:hover{
+    background-color: tomato;
+}
+
+.ozel-a:active{
+    background-color: red;
+    color: white;
+}
+
+ul {
+    background-color: yellowgreen;
+    margin: 10px;
+    padding: 10px;
+}
+
+li{
+    background-color: yellow;
+    margin: 10px;
+    padding: 10px;
+}
+
+.circle{
+    list-style-type: circle;
+    list-style-position: inside;
+
+    border-top-style: solid;
+    border-top-color: red;
+    border-top-width: 10px;
+
+    border-right-style: dotted;
+    border-right-color: blue;
+    border-right-width: 5px;
+
+    border-bottom-style: double;
+    border-bottom-color: gold;
+    border-bottom-width: 15px;
+}
+
+.square{
+    list-style-type: square;
+    border-style: solid;
+    border-width: 10px;
+    border-color: blue;
+}
+
+.ermeni{
+    list-style-type: armenian;
+    border: 10px outset red;
+}
+
+.greek{
+    list-style-type: lower-greek;
+    border: 10px inset red;
+}
+
+.alfa{
+    list-style-type: upper-alpha;
+    border: 10px ridge red;
+}
+
+.georgia{
+    list-style-type: georgian;
+    border: 10px groove red;
+}
+
+.roman{
+    list-style-type: upper-roman;
+    border: 10px double red;
+}
+
+.decimal{
+    list-style-type: decimal;
+    border: 10px dotted red;
+}
+
+.latin{
+    list-style-type: upper-latin;
+    border: 10px solid red;
+}
+
+table{
+    background-color: wheat;
+    border-collapse: collapse;
+}
